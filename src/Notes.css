@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+  padding: 0;
+  /* Set the background color of the body to black */
+  background-image: url('./Asset/pexels.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Cover ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  background-attachment: fixed;
+  
+  }
+.App {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 20px; /* Adjust the radius as per your design */
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(2px);
+    /* Border using linear gradient */
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, yellow,red,#0112a7,rgb(204, 9, 42), #f44336,red, #faf60a,blue,#a4cdee,blue,#fa0f0f) 30;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f8f2f4; /* White text color */
+    text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Black outline */
+   
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+   
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(2px);
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+    border: 1px solid #0c0c0c;
+    border-radius: 4px;
+  }
+  form input::placeholder {
+    color: #050505; /* Placeholder color for Title input */
+    font-weight: 300;
+    font-size: larger;
+}
+
+form textarea::placeholder {
+    color: #030303; /* Placeholder color for Content textarea */
+    font-size: larger;
+    
+}
+
+  
+  form button {
+    padding: 10px 20px;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    background-image: linear-gradient(to right,#530215 ,  #fa41ad ,#07e09f,rgba(62, 223, 41, 0.87), #c3d100,#ff0852);
+    color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-image: linear-gradient(to right, #ff0852, #c3d100 ,rgba(62, 223, 41, 0.87),#07e09f,#fa41ad , #910223);
+  }
+  
+  .notes-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .note {
+    
+    padding: 10px;
+    border: 1px solid #050505;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(2px);
+  }
+  
+  .note h3 {
+    margin-top: 0;
+  }
+  
+  .note p {
+    margin-bottom: 10px;
+  }
+  
+  .note button {
+    padding: 10px 19px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium',;
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#8d0021,#f1063d,  #ff416c ,#c3d100,#ff4b2b);
+   
+  }
+  
+  .note button:hover {
+    background-image: linear-gradient(to right,#ff4b2b ,#c3d100,  #ff416c ,#f1063d,#8d0021);
+  }
+ 
+ 
